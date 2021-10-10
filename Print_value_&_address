@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int p,*a;
+p=6;
+a=&p;
+printf("the value of p is %d\n", p);
+printf("the address of p is %p\n", &p);
+}
